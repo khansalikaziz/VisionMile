@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paymentgatewaytrialpage">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="250dp"
+        android:text="Oops !"
+        android:layout_marginLeft="80dp"
+        android:textColor="#6dafe0"
+        android:textSize="80sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="266dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="365dp"
+        android:text="Wrong Action"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="0dp"
+        android:text="Button"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <Button
+        android:id="@+id/idBtnVerify"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="310dp"
+        android:text="Verify OTP and Pay"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        app:backgroundTint="#5AAC5D" />
+
+    <EditText
+        android:id="@+id/idEdtOtp"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="240dp"
+        android:hint="Enter OTP"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/idBtnGetOtp"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="170dp"
+
+        android:text="Get OTP"
+        android:textAllCaps="false"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/idEdtPhoneNumber"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="19dp"
+        android:hint="Enter your phone"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="34dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="150"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

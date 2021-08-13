@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seallcategorypage">
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+
+        android:fontFamily="sans-serif"
+        android:text="Categories"
+        android:textColor="#090808"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        android:minHeight="200dp"
+        app:cardBackgroundColor="#6dafe0"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="66dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+
+                android:fontFamily="sans-serif"
+                android:text="Writing skill"
+                android:textColor="#ffffff"
+                android:textSize="28sp" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="210dp"
+                android:src="@drawable/abcwrite"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview4"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        android:minHeight="200dp"
+        app:cardBackgroundColor="#6dafe0"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="66dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+
+                android:fontFamily="sans-serif"
+                android:text="Reading skill"
+                android:textColor="#ffffff"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="108dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/kreading" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview5"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        android:minHeight="200dp"
+        app:cardBackgroundColor="#6dafe0"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="66dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+
+                android:fontFamily="sans-serif"
+                android:text="Listening skill"
+                android:textColor="#ffffff"
+                android:textSize="28sp" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="230dp"
+                android:src="@drawable/earphone"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

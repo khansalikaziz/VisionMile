@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trialpage">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="244dp"
+        android:layout_height="79dp"
+        android:text="𝐓𝐫𝐢𝐚𝐥 𝐒𝐞𝐬𝐬𝐢𝐨𝐧"
+        android:textStyle="bold"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#753a88"
+        android:textSize="30dp" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_width="350dp"
+        android:layout_height="600dp"
+        android:layout_alignParentTop="true"
+        android:minHeight="200dp"
+        app:cardBackgroundColor="#6dafe0"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="30dp"
+        app:cardPreventCornerOverlap="false"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp"
+        tools:layout_editor_absoluteY="277dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="143dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="90dp"
+                        android:layout_weight="1"
+                        android:text="Hey!"
+                        android:textColor="@color/white"
+                        android:textSize="60dp"
+                        android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="297dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="230dp"
+                android:layout_weight="1"
+                android:text="Here you can access free trial for the courses to explore "
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="176dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="400dp"
+                android:layout_weight="1"
+                android:text="Enjoy \n Learning...."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginRight="9dp"
+                    android:src="@drawable/cartoon"/>
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginRight="9dp"
+                android:src="@drawable/learninc"/>
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/loginbtn"
+                style="@style/loginButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="530dp"
+                android:text="𝐀𝐜𝐜𝐞𝐬𝐬 𝐂𝐨𝐮𝐫𝐬𝐞"
+                android:textSize="18dp"
+                android:layout_width="270dp"
+                android:background="@drawable/profile_back_button"
+                app:initialCornerAngle="27dp"
+                app:spinning_bar_color="#FFF"
+                android:onClick="hit"
+                app:spinning_bar_padding="6dp"
+                android:layout_marginLeft="40dp"
+                app:spinning_bar_width="4dp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">splashtrial1</string>
+    <string name="ob_header1">COURSES</string>
+    <string name="ob_header2">FACE TO FACE</string>
+    <string name="ob_header3">TEACHERS</string>
+    <string name="ob_header4">COST EFFICIENT</string>
+
+    <string name="ob_get_started">GET STARTED</string>
+
+    <string name="ob_desc1">We provide a wide range of courses with high quality content</string>
+    <string name="ob_desc2">Face to Face interaction with the teacher to make learning more interesting and knowledgable</string>
+    <string name="ob_desc3">We have the best teachers with us onboard!</string>
+    <string name="ob_desc4">We provide courses with minimal cost and abundant study material</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="title_activity_dashboard">dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_page_selected">%s page is selected</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="score">Score 0/8</string>
+    <string name="question_number">1/8 Question</string>
+    <string name="question_1">He told me that he_______watching the movie.</string>
+    <string name="question_A">is finished</string>
+    <string name="question_B"> was finished</string>
+    <string name="question_c">had finished</string>
+    <string name="question_d"> not finished</string>
+    <string name="answer_1">had finished</string>
+
+
+    <string name="question_2">He is very good ______ making stories.</string>
+    <string name="question_2A">at</string>
+    <string name="question_2B">about</string>
+    <string name="question_2C">for</string>
+    <string name="question_2D">in</string>
+    <string name="answer_2">at</string>
+
+
+    <string name="question_3"> I do my work _____ carefully to make mistakes.</string>
+    <string name="question_3A">so</string>
+    <string name="question_3B">too</string>
+    <string name="question_3C">very</string>
+    <string name="question_3D">more</string>
+    <string name="answer_3">too</string>
+
+    <string name="question_4">In questions choose the word opposite in meaning to the given word :Plausible</string>
+    <string name="question_4A">inplausible</string>
+    <string name="question_4B">unplausible</string>
+    <string name="question_4C">displausible</string>
+    <string name="question_4D">implausible</string>
+    <string name="answer_4">implausible</string>
+
+    <string name="question_5">The Chairman is ill and we’ll have to_______ the meeting for a few days.</string>
+    <string name="question_5A">put on</string>
+    <string name="question_5B">put off</string>
+    <string name="question_5C">put of</string>
+    <string name="question_5D">put away</string>
+    <string name="answer_5">put off</string>
+
+    <string name="question_6">The cat and the dog have a ______ enemy in the rat.</string>
+    <string name="question_6A">same</string>
+    <string name="question_6B">mutual</string>
+    <string name="question_6C">similar</string>
+    <string name="question_6D">common</string>
+    <string name="answer_6">common</string>
+
+    <string name="question_7">Which of the following is not an article?</string>
+    <string name="question_7A">a</string>
+    <string name="question_7B">an</string>
+    <string name="question_7C">the</string>
+    <string name="question_7D">in</string>
+    <string name="answer_7">in</string>
+
+    <string name="question_8">which of the following is opposite of peak</string>
+    <string name="question_8A"> pit</string>
+    <string name="question_8B">high</string>
+    <string name="question_8C">round</string>
+    <string name="question_8D">Ceil</string>
+    <string name="answer_8">pit</string>
+    <string name="selctedoption">SelctedOption</string>
+    <string name="correctanswer">CorrectAnswer</string>
+    <string name="selction_option">SELCTION OPTION</string>
+
+    <string name="facebook_app_id">178076877273563</string>
+    <string name="fb_login_protocol_scheme">fb178076877273563</string>
+    <string name="very_long_lorem_ipsum_2">
+        Introduction
+
+These General Terms and Conditions (the "General Terms") govern your use of the websites on which they appear at www.educationalappstore.com and our provision of various online services and resources via the website. (the "Services").
+
+These General Terms incorporate our Privacy Policy which describes (among other things) how we will use any personal information collected as a result of your use of the Services. For more information, please see our full Privacy Policy.
+
+Additional terms, which should be read in conjunction with these General Terms apply to some of our Services ("Additional Terms") and can be accessed here:
+
+Additional Terms - Teacher App Library
+Additional Terms - Parent App Library
+Please read these General Terms (including the Privacy Policy) as well as any Additional Terms carefully, before using any part of our Websites or Services. By using the Websites, you confirm that you accept the General Terms, the Privacy Policy and any relevant Additional Terms and that you agree to comply with them. You should print a copy of these General Terms, the Privacy Policy and any relevant Additional Terms for future reference.
+
+Privacy
+
+By agreeing to these General Conditions, you agree to the terms of our Privacy Policy, which is expressly incorporated herein. Before using the Site, please carefully review our Privacy Policy. All personal information provided to us as a result of your Access will be handled in accordance with our Privacy Policy, and by Accessing the Site, you consent to the collection, storage, use and dissemination of your personal information in accordance with this Privacy Policy.
+    </string>
+</resources>

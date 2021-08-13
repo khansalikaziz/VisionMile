@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.splashtrial1">
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/abc"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Splashtrial1">
+        <activity android:name=".termsandcondition"></activity>
+        <activity android:name=".aboutus" />
+        <activity android:name=".vidlisten"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".videowrite"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".videoread"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".seallcategorypage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".googleuserprofile"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".googleeventtrigger"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".testdashboard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".paymentgatewaytrialpage" />
+        <activity android:name=".trialpage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Actualtofflecontent"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".bottomtoffle"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".coursetoffle"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".courselist"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".paymentgatewaytoffle" />
+        <activity android:name=".accesscoursetoffle"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".bottomcoursepage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Actualcoursecontent"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".accesscourse"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".course_page_after_payment"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".quiz"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".paymentgateway" />
+        <activity android:name=".tdashboard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".timetable"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".tregister"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".tlogin"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".teacherlist"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".videofive"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videofour"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videothree"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".video2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videoone"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".samplevideo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settingactivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userprofile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".forgotpassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Splashtrial1.NoActionBar" />
+        <activity
+            android:name=".register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".onboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_RSncprkPc2aYeH" />
+    </application>
+
+</manifest>

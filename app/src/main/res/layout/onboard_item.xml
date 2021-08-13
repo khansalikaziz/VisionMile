@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/iv_onboard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ob_banner_height"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/onboard_page1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:layout_below="@+id/iv_onboard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="2dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="@dimen/ob_desc_padding"
+                android:paddingRight="@dimen/ob_desc_padding"
+                android:text="@string/ob_header1"
+                android:textAllCaps="true"
+                android:textColor="#0C0C0C"
+                android:textSize="@dimen/ob_header_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:paddingLeft="@dimen/ob_desc_padding"
+                android:paddingRight="@dimen/ob_desc_padding"
+                android:text="@string/ob_desc1"
+                android:textColor="#0D0E0E"
+                android:textSize="@dimen/ob_desc_text_size" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
