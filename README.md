@@ -2,6 +2,8 @@
 
 By Salik Aziz Khan
 
+<img src="https://camo.githubusercontent.com/..." data-canonical-src= "https://user-images.githubusercontent.com/76683360/151568563-29a037c3-41c7-44ce-9e7f-2dc6501d5cd3.png" width="200" height="400" />
+
 ![Screenshot_20220128-201925_splashtrial1](https://user-images.githubusercontent.com/76683360/151568563-29a037c3-41c7-44ce-9e7f-2dc6501d5cd3.png)
 
 ![Screenshot_20220128-201933_splashtrial1 (1)](https://user-images.githubusercontent.com/76683360/151568578-28ba704c-6cf8-4a65-a650-a32ec4c46def.png)
